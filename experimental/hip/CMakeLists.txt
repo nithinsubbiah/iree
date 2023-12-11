@@ -34,6 +34,8 @@ iree_cc_library(
     "hip_driver.c"
     "memory_pools.c"
     "memory_pools.h"
+    "pipeline_layout.c"
+    "pipeline_layout.h"
   INCLUDES
     "${HIP_API_HEADERS_ROOT}"
   DEPS
